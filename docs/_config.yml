@@ -1,0 +1,30 @@
+# Configuración básica del sitio  
+title: Mi Blog de Desarrollo  
+description: Un blog donde comparto cosas de programación y tecnología.  
+baseurl: ""  # usualmente vacío para GitHub Pages  
+url: "https://tuusuario.github.io"  # Cambia por tu URL real  
+
+# Configuración del autor  
+author:  
+  name: Tu Nombre  
+  email: tuemail@ejemplo.com  
+
+# Tema del sitio (puedes escoger uno oficial o uno personalizado)  
+theme: minima  
+
+# Configuración de markdown  
+markdown: kramdown  
+kramdown:  
+  input: GFM  # GitHub Flavored Markdown  
+
+# Plugins (GitHub Pages soporta solo algunos, no es necesario poner si no usas)  
+plugins:  
+  - jekyll-feed  
+  - jekyll-seo-tag  
+
+# Configuraciones adicionales  
+paginate: 5  # posts por página en caso que tengas blog  
+paginate_path: "/page:num/"  
+
+# Opciones para mostrar la fecha en un formato legible  
+date_format: "%d %B %Y" 
