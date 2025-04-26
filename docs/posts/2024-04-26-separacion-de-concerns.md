@@ -2,6 +2,7 @@
 layout: post  
 title: Separación de responsabilidades (Separation of Concerns)  
 date: 2024-04-26  
+categories: [javascript, buenas-practicas]
 ---  
 
 Una buena práctica en el desarrollo de aplicaciones web es aplicar la **separación de responsabilidades**. Esto significa dividir el código en diferentes capas o módulos según su función, por ejemplo:  

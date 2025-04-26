@@ -2,6 +2,7 @@
 layout: post  
 title: Pruebas y control de versiones  
 date: 2024-04-28  
+categories: pruebas, buenas-practicas]  
 ---  
 
 Implementar **pruebas automatizadas** y usar **control de versiones** son buenas prácticas esenciales:  
