@@ -1,3 +1,8 @@
+---  
+layout: home  
+title: Bienvenido a mi sitio  
+---  
+
 # Documento de Buenas Prácticas para el Desarrollo de Software  
 
 ## 1. Introducción  
