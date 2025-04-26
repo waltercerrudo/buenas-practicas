@@ -9,7 +9,8 @@ author:
   name: Walter Cerrudo
   email: tuemail@ejemplo.com  
 
-remote_theme: pages-themes/architect@v0.2.0
+# Tema del sitio (puedes escoger uno oficial o uno personalizado)  
+theme: jekyll-theme-architect  
 
 # Configuración de markdown  
 markdown: kramdown  
@@ -20,7 +21,6 @@ kramdown:
 plugins:  
   - jekyll-feed  
   - jekyll-seo-tag  
-  - jekyll-remote-theme
 
 # Configuraciones adicionales  
 paginate: 5  # posts por página en caso que tengas blog  
@@ -28,6 +28,3 @@ paginate_path: "/page:num/"
 
 # Opciones para mostrar la fecha en un formato legible  
 date_format: "%d %B %Y" 
-
-show_downloads: ["true"]
-google_analytics: [Your Google Analytics tracking ID]
