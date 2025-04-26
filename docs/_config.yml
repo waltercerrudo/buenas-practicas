@@ -1,5 +1,6 @@
 # Configuración básica del sitio  
-title: Mi Blog de Desarrollo  
+title: Blog sobre buenas prácticas de programación
+subtitle: Buenas prácticas de programación y tecnología  
 description: Un blog donde comparto cosas de programación y tecnología.  
 baseurl: "buenas-practicas"  # usualmente vacío para GitHub Pages  
 url: "https://waltercerrudo.github.io"  # Cambia por tu URL real  
@@ -7,7 +8,7 @@ url: "https://waltercerrudo.github.io"  # Cambia por tu URL real
 # Configuración del autor  
 author:  
   name: Walter Cerrudo
-  email: tuemail@ejemplo.com  
+  email: waltercerrudo@gmail.com  
 
 description: >
   Write an awesome description for your new site here. You can edit this line
@@ -33,7 +34,7 @@ minima:
   #     * solarized-light    Light variant of solarized color scheme.
   #     * solarized-dark     Dark variant of solarized color scheme.
   #     * solarized          Adaptive skin for solarized color scheme skins.
-  skin: classic
+  skin: dark
 
   # Specific pages for site navigation.
   #   If you wish to link only specific pages in the site-navigation, use this and list
@@ -41,9 +42,10 @@ minima:
   #   should be rendered.
   nav_pages:
     - about.md
+    - best-practices.md
 
   # Set to `true` to show excerpts on the homepage.
-  show_excerpts: false
+  show_excerpts: true
 
   # Minima date format.
   #   The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
