@@ -1,12 +1,12 @@
 # Configuración básica del sitio  
 title: Mi Blog de Desarrollo  
 description: Un blog donde comparto cosas de programación y tecnología.  
-baseurl: ""  # usualmente vacío para GitHub Pages  
-url: "https://tuusuario.github.io"  # Cambia por tu URL real  
+baseurl: "buenas-practicas"  # usualmente vacío para GitHub Pages  
+url: "https://waltercerrudo.github.io"  # Cambia por tu URL real  
 
 # Configuración del autor  
 author:  
-  name: Tu Nombre  
+  name: Walter Cerrudo
   email: tuemail@ejemplo.com  
 
 # Tema del sitio (puedes escoger uno oficial o uno personalizado)  
