@@ -10,7 +10,7 @@ author:
   email: tuemail@ejemplo.com  
 
 # Tema del sitio (puedes escoger uno oficial o uno personalizado)  
-theme: jekyll-theme-minima  
+theme: minima  
 
 # Configuración de markdown  
 markdown: kramdown  
